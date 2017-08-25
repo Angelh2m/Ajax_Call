@@ -7,6 +7,9 @@ img {
   height: 100%;
 }
 
+a{
+  cursor: pointer;
+}
 /* Navigation */
 
 .menu nav a {
@@ -42,6 +45,23 @@ img {
   font-size: 3em;
   font-weight: 700;
   line-height: 1.2;
+}
+
+@media (max-width: 600px) {
+
+  .header h2 {
+    position: relative;
+        top: 25px;
+  }
+  .box-gradient {
+    background-color: gray;
+    height: 515px;
+  }
+  .footer .col-sm-4 {
+
+    margin-bottom: 5rem;
+  }
+
 }
 
 
@@ -151,6 +171,7 @@ img {
   bottom: 0;
   color: white;
   z-index: 999;
+  cursor: pointer;
 }
 
 .spacer {
